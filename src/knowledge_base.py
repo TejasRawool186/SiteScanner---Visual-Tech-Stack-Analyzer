@@ -629,14 +629,466 @@ TECH_INFO = {
         "desc": "High-performance web server and reverse proxy. Known for stability and low resource consumption.",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
         "category": "Infrastructure"
+    },
+    "Amazon Cloudfront": {
+        "desc": "Fast content delivery network (CDN) service by AWS for secure and low-latency delivery.",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+        "category": "CDN"
+    },
+    "Google Fonts": {
+        "desc": "Free service to embed open-source fonts on websites with over 1,500 font families.",
+        "logo": "https://www.gstatic.com/images/branding/product/1x/google_fonts_64dp.png",
+        "category": "Typography"
+    },
+    "Material-UI": {
+        "desc": "React component library implementing Google's Material Design for beautiful UIs.",
+        "logo": "https://mui.com/static/logo.png",
+        "category": "UI Framework"
+    },
+    "Chakra UI": {
+        "desc": "Simple, modular and accessible React component library for building user interfaces.",
+        "logo": "https://chakra-ui.com/favicon.png",
+        "category": "UI Framework"
+    },
+    "Ant Design": {
+        "desc": "Enterprise-class UI design language and React component library from Alibaba.",
+        "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+        "category": "UI Framework"
+    },
+    "Bulma": {
+        "desc": "Modern CSS framework based on Flexbox with no JavaScript requirements.",
+        "logo": "https://bulma.io/images/bulma-logo.png",
+        "category": "CSS Framework"
+    },
+    "Semantic UI": {
+        "desc": "Development framework using human-friendly HTML for creating beautiful interfaces.",
+        "logo": "https://semantic-ui.com/images/logo.png",
+        "category": "UI Framework"
+    },
+    "Redux": {
+        "desc": "Predictable state container for JavaScript apps, commonly used with React.",
+        "logo": "https://redux.js.org/img/redux.svg",
+        "category": "State Management"
+    },
+    "MobX": {
+        "desc": "Simple, scalable state management solution using reactive programming.",
+        "logo": "https://mobx.js.org/img/mobx.png",
+        "category": "State Management"
+    },
+    "Zustand": {
+        "desc": "Small, fast and scalable bearbones state-management solution for React.",
+        "logo": "https://zustand-demo.pmnd.rs/favicon.ico",
+        "category": "State Management"
+    },
+    "Lottie": {
+        "desc": "Library for rendering After Effects animations natively on web and mobile.",
+        "logo": "https://airbnb.design/static/favicon.ico",
+        "category": "Animation"
+    },
+    "AOS": {
+        "desc": "Animate On Scroll library for adding scroll-triggered animations.",
+        "logo": "https://michalsnik.github.io/aos/favicon.ico",
+        "category": "Animation"
+    },
+    "Anime.js": {
+        "desc": "Lightweight JavaScript animation library with a simple API.",
+        "logo": "https://animejs.com/favicon-32x32.png",
+        "category": "Animation"
+    },
+    "Highcharts": {
+        "desc": "Interactive JavaScript charting library for web and mobile projects.",
+        "logo": "https://www.highcharts.com/images/favicon.ico",
+        "category": "Visualization"
+    },
+    "ApexCharts": {
+        "desc": "Modern & interactive open-source charts library.",
+        "logo": "https://apexcharts.com/wp-content/themes/flavor/flavour/assets/images/brand.png",
+        "category": "Visualization"
+    },
+    "ECharts": {
+        "desc": "Apache ECharts - powerful, interactive charting and visualization library.",
+        "logo": "https://echarts.apache.org/en/images/favicon.png",
+        "category": "Visualization"
+    },
+    "Plotly": {
+        "desc": "Interactive, open-source, browser-based graphing library for data visualization.",
+        "logo": "https://plotly.com/favicon.ico",
+        "category": "Visualization"
+    },
+    "Recharts": {
+        "desc": "Composable charting library built on React components.",
+        "logo": "https://recharts.org/favicon.ico",
+        "category": "Visualization"
+    },
+    "SvelteKit": {
+        "desc": "Full-stack framework for Svelte with server-side rendering and routing.",
+        "logo": "https://kit.svelte.dev/favicon.png",
+        "category": "Frontend"
+    },
+    "Ember.js": {
+        "desc": "Opinionated JavaScript framework for ambitious web applications.",
+        "logo": "https://emberjs.com/images/brand/ember-tomster.svg",
+        "category": "Frontend"
+    },
+    "Backbone.js": {
+        "desc": "Lightweight JavaScript library providing structure with MVC pattern.",
+        "logo": "https://backbonejs.org/favicon.ico",
+        "category": "Frontend"
+    },
+    "Parcel": {
+        "desc": "Zero-configuration web application bundler with fast build times.",
+        "logo": "https://parceljs.org/favicon.fe6f9d11.ico",
+        "category": "Build Tool"
+    },
+    "Rollup": {
+        "desc": "JavaScript module bundler for compiling small pieces of code into libraries.",
+        "logo": "https://rollupjs.org/favicon.png",
+        "category": "Build Tool"
+    },
+    "esbuild": {
+        "desc": "Extremely fast JavaScript bundler and minifier written in Go.",
+        "logo": "https://esbuild.github.io/favicon.svg",
+        "category": "Build Tool"
+    },
+    "Turbopack": {
+        "desc": "Incremental bundler optimized for JavaScript and TypeScript by Vercel.",
+        "logo": "https://turbo.build/favicon.ico",
+        "category": "Build Tool"
+    },
+    "Fastify": {
+        "desc": "Fast and low overhead web framework for Node.js.",
+        "logo": "https://www.fastify.io/img/logos/fastify-black.svg",
+        "category": "Backend"
+    },
+    "NestJS": {
+        "desc": "Progressive Node.js framework for building efficient server-side applications.",
+        "logo": "https://nestjs.com/img/logo-small.svg",
+        "category": "Backend"
+    },
+    "FastAPI": {
+        "desc": "Modern, fast web framework for building APIs with Python 3.7+ based on type hints.",
+        "logo": "https://fastapi.tiangolo.com/img/favicon.png",
+        "category": "Backend"
+    },
+    "Apollo": {
+        "desc": "GraphQL implementation providing a complete GraphQL ecosystem.",
+        "logo": "https://www.apollographql.com/favicon.ico",
+        "category": "Backend"
+    },
+    "Storyblok": {
+        "desc": "Headless CMS with a visual editor for developers and marketers.",
+        "logo": "https://a.storyblok.com/f/88751/x/4a8c19a47a/favicon.svg",
+        "category": "CMS"
+    },
+    "DatoCMS": {
+        "desc": "API-based headless CMS for content management at scale.",
+        "logo": "https://www.datocms.com/favicon.ico",
+        "category": "CMS"
+    },
+    "Hygraph": {
+        "desc": "Federated content platform (formerly GraphCMS) for headless content management.",
+        "logo": "https://hygraph.com/favicon.ico",
+        "category": "CMS"
+    },
+    "Eleventy": {
+        "desc": "Simple static site generator with zero-config by default.",
+        "logo": "https://www.11ty.dev/img/favicon.ico",
+        "category": "Static Site"
+    },
+    "Docusaurus": {
+        "desc": "Easy to maintain documentation websites by Meta Open Source.",
+        "logo": "https://docusaurus.io/img/docusaurus_keytar.svg",
+        "category": "Documentation"
+    },
+    "VuePress": {
+        "desc": "Vue-powered Static Site Generator for documentation.",
+        "logo": "https://vuepress.vuejs.org/hero.png",
+        "category": "Documentation"
+    },
+    "BigCommerce": {
+        "desc": "Leading SaaS e-commerce platform for growing businesses.",
+        "logo": "https://www.bigcommerce.com/favicon.ico",
+        "category": "Ecommerce"
+    },
+    "Saleor": {
+        "desc": "High-performance, composable, headless commerce API.",
+        "logo": "https://saleor.io/favicon.ico",
+        "category": "Ecommerce"
+    },
+    "Klarna": {
+        "desc": "Buy now, pay later payment solution for e-commerce.",
+        "logo": "https://www.klarna.com/favicon.ico",
+        "category": "Payments"
+    },
+    "Heap": {
+        "desc": "Digital insights platform that automatically captures web and mobile app data.",
+        "logo": "https://heap.io/favicon.ico",
+        "category": "Analytics"
+    },
+    "FullStory": {
+        "desc": "Digital experience intelligence platform with session replay.",
+        "logo": "https://www.fullstory.com/favicon.ico",
+        "category": "Analytics"
+    },
+    "LogRocket": {
+        "desc": "Frontend monitoring and product analytics solution.",
+        "logo": "https://logrocket.com/favicon.ico",
+        "category": "Monitoring"
+    },
+    "PostHog": {
+        "desc": "Open-source product analytics platform with feature flags and A/B testing.",
+        "logo": "https://posthog.com/favicon.ico",
+        "category": "Analytics"
+    },
+    "Plausible": {
+        "desc": "Simple, privacy-focused Google Analytics alternative.",
+        "logo": "https://plausible.io/favicon.ico",
+        "category": "Analytics"
+    },
+    "Clarity": {
+        "desc": "Microsoft's free behavioral analytics tool with session recordings and heatmaps.",
+        "logo": "https://clarity.microsoft.com/favicon.ico",
+        "category": "Analytics"
+    },
+    "Drift": {
+        "desc": "Revenue acceleration platform with conversational marketing and sales.",
+        "logo": "https://www.drift.com/favicon.ico",
+        "category": "Marketing"
+    },
+    "Klaviyo": {
+        "desc": "Email and SMS marketing platform built for e-commerce.",
+        "logo": "https://www.klaviyo.com/favicon.ico",
+        "category": "Marketing"
+    },
+    "Optimizely": {
+        "desc": "Digital experience platform for experimentation and personalization.",
+        "logo": "https://www.optimizely.com/favicon.ico",
+        "category": "A/B Testing"
+    },
+    "LaunchDarkly": {
+        "desc": "Feature management platform for controlled feature releases.",
+        "logo": "https://launchdarkly.com/favicon.ico",
+        "category": "Feature Flags"
+    },
+    "Railway": {
+        "desc": "Infrastructure platform for deploying apps, databases, and services.",
+        "logo": "https://railway.app/favicon.ico",
+        "category": "Infrastructure"
+    },
+    "Render": {
+        "desc": "Cloud platform to build and run all your apps and websites.",
+        "logo": "https://render.com/favicon.ico",
+        "category": "Infrastructure"
+    },
+    "Fly.io": {
+        "desc": "Platform for running applications close to users around the world.",
+        "logo": "https://fly.io/favicon.ico",
+        "category": "Infrastructure"
+    },
+    "Fastly": {
+        "desc": "Edge cloud platform for fast, secure, and scalable digital experiences.",
+        "logo": "https://www.fastly.com/favicon.ico",
+        "category": "CDN"
+    },
+    "KeyCDN": {
+        "desc": "High performance content delivery network for accelerating web content.",
+        "logo": "https://www.keycdn.com/favicon.ico",
+        "category": "CDN"
+    },
+    "Bunny CDN": {
+        "desc": "Fast and affordable content delivery network and storage.",
+        "logo": "https://bunny.net/favicon.ico",
+        "category": "CDN"
+    },
+    "jsDelivr": {
+        "desc": "Free, fast, and reliable Open Source CDN for npm and GitHub.",
+        "logo": "https://www.jsdelivr.com/favicon.ico",
+        "category": "CDN"
+    },
+    "PlanetScale": {
+        "desc": "Serverless MySQL database platform built on Vitess.",
+        "logo": "https://planetscale.com/favicon.ico",
+        "category": "Database"
+    },
+    "Neon": {
+        "desc": "Serverless Postgres with branching for modern development.",
+        "logo": "https://neon.tech/favicon.ico",
+        "category": "Database"
+    },
+    "Upstash": {
+        "desc": "Serverless data platform for Redis and Kafka.",
+        "logo": "https://upstash.com/favicon.ico",
+        "category": "Database"
+    },
+    "Fauna": {
+        "desc": "Distributed serverless database with native GraphQL.",
+        "logo": "https://fauna.com/favicon.ico",
+        "category": "Database"
+    },
+    "Prisma": {
+        "desc": "Next-generation Node.js and TypeScript ORM for databases.",
+        "logo": "https://www.prisma.io/favicon.ico",
+        "category": "ORM"
+    },
+    "Clerk": {
+        "desc": "Complete user management and authentication for React and Next.js.",
+        "logo": "https://clerk.com/favicon.ico",
+        "category": "Authentication"
+    },
+    "NextAuth": {
+        "desc": "Authentication for Next.js with support for many providers.",
+        "logo": "https://next-auth.js.org/favicon.ico",
+        "category": "Authentication"
+    },
+    "Bugsnag": {
+        "desc": "Error monitoring and stability management for applications.",
+        "logo": "https://www.bugsnag.com/favicon.ico",
+        "category": "Monitoring"
+    },
+    "Rollbar": {
+        "desc": "Error tracking and monitoring platform for development teams.",
+        "logo": "https://rollbar.com/favicon.ico",
+        "category": "Monitoring"
+    },
+    "Material Icons": {
+        "desc": "Google's Material Design icons for web, Android, and iOS.",
+        "logo": "https://fonts.gstatic.com/s/i/materialicons/face/v17/24px.svg",
+        "category": "Icons"
+    },
+    "Heroicons": {
+        "desc": "Beautiful hand-crafted SVG icons from the makers of Tailwind CSS.",
+        "logo": "https://heroicons.com/favicon.ico",
+        "category": "Icons"
+    },
+    "Lucide": {
+        "desc": "Beautiful & consistent icon toolkit made by the community.",
+        "logo": "https://lucide.dev/favicon.ico",
+        "category": "Icons"
+    },
+    "Feather Icons": {
+        "desc": "Simply beautiful open source icons.",
+        "logo": "https://feathericons.com/favicon.ico",
+        "category": "Icons"
+    },
+    "reCAPTCHA": {
+        "desc": "Google's CAPTCHA service to protect websites from spam and abuse.",
+        "logo": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "category": "Security"
+    },
+    "Turnstile": {
+        "desc": "Cloudflare's user-friendly, privacy-preserving CAPTCHA alternative.",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg",
+        "category": "Security"
+    },
+    "OneTrust": {
+        "desc": "Privacy management software for compliance and consent management.",
+        "logo": "https://www.onetrust.com/favicon.ico",
+        "category": "Privacy"
+    },
+    "CookieBot": {
+        "desc": "Cookie consent and compliance solution for GDPR and CCPA.",
+        "logo": "https://www.cookiebot.com/favicon.ico",
+        "category": "Privacy"
+    },
+    "PWA": {
+        "desc": "Progressive Web App - Web apps with native app-like experience.",
+        "logo": "https://web.dev/images/favicon.ico",
+        "category": "Technology"
+    },
+    "Workbox": {
+        "desc": "JavaScript libraries for adding offline support to web apps.",
+        "logo": "https://developers.google.com/web/tools/workbox/images/Workbox-Logo-Grey.svg",
+        "category": "Technology"
+    },
+    "JSON-LD": {
+        "desc": "Structured data format for linking data on the web using JSON.",
+        "logo": "https://json-ld.org/images/json-ld-logo-64.png",
+        "category": "SEO"
+    },
+    "Open Graph": {
+        "desc": "Protocol for rich social media sharing previews.",
+        "logo": "https://ogp.me/logo.png",
+        "category": "SEO"
+    },
+    "Framer": {
+        "desc": "Web design and publishing platform with powerful animations.",
+        "logo": "https://www.framer.com/favicon.ico",
+        "category": "CMS"
+    },
+    "Carrd": {
+        "desc": "Simple, free, fully responsive one-page sites.",
+        "logo": "https://carrd.co/favicon.ico",
+        "category": "Website Builder"
     }
+}
+
+# Category color codes for better visualization
+CATEGORY_COLORS = {
+    "Frontend": "#61DAFB",
+    "Backend": "#68A063",
+    "Database": "#336791",
+    "Infrastructure": "#FF9900",
+    "CDN": "#F48120",
+    "Analytics": "#E37400",
+    "Marketing": "#FF6B6B",
+    "CMS": "#21759B",
+    "Ecommerce": "#96588A",
+    "Payments": "#635BFF",
+    "Security": "#00C853",
+    "Monitoring": "#FF5722",
+    "Build Tool": "#8DD6F9",
+    "Animation": "#FF4081",
+    "Visualization": "#4CAF50",
+    "UI Framework": "#1976D2",
+    "CSS Framework": "#264DE4",
+    "State Management": "#764ABC",
+    "Icons": "#339AF0",
+    "Typography": "#000000",
+    "Authentication": "#00BCD4",
+    "ORM": "#2D3748",
+    "A/B Testing": "#7B1FA2",
+    "Feature Flags": "#00838F",
+    "Documentation": "#25C19F",
+    "Static Site": "#E44D26",
+    "Technology": "#607D8B",
+    "3D Graphics": "#049EF4",
+    "Support": "#03A9F4",
+    "Communication": "#4A154B",
+    "Automation": "#FF4A00",
+    "Forms": "#21B573",
+    "Search": "#003DFF",
+    "Privacy": "#4CAF50",
+    "SEO": "#4285F4",
+    "Website Builder": "#FFB400",
+    "Utility": "#795548"
 }
 
 def get_tech_details(name):
     """Fetches details or generates smart fallbacks"""
+    if name in TECH_INFO:
+        return TECH_INFO[name]
+    
+    # Try case-insensitive match
+    name_lower = name.lower()
+    for tech_name, details in TECH_INFO.items():
+        if tech_name.lower() == name_lower:
+            return details
+    
+    # Generate smart fallback with better logo sources
+    clean_name = name.lower().replace(' ', '').replace('.', '').replace('-', '')
+    
+    # Try multiple logo sources
+    logo_attempts = [
+        f"https://cdn.simpleicons.org/{clean_name}",
+        f"https://logo.clearbit.com/{clean_name}.com",
+        f"https://logo.clearbit.com/{clean_name}.io",
+        f"https://www.google.com/s2/favicons?domain={clean_name}.com&sz=64"
+    ]
+    
     fallback = {
         "desc": f"A detected technology used for {name} functionality.",
-        "logo": f"https://logo.clearbit.com/{name.lower().replace(' ', '')}.com",  # Smart guess
+        "logo": logo_attempts[0],  # Use SimpleIcons as primary
         "category": "Technology"
     }
-    return TECH_INFO.get(name, fallback)
+    return fallback
+

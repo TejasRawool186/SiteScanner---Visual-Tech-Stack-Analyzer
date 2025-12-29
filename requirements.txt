@@ -3,3 +3,4 @@ python-Wappalyzer
 requests
 jinja2
 beautifulsoup4
+playwright

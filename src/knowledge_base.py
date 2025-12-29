@@ -494,6 +494,141 @@ TECH_INFO = {
         "desc": "Free, automated, and open certificate authority for HTTPS.",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Let%27s_Encrypt_example_certificate.png",
         "category": "Security"
+    },
+    "Vite": {
+        "desc": "Next-generation frontend build tool for fast development and optimized production builds.",
+        "logo": "https://vitejs.dev/logo.svg",
+        "category": "Build Tool"
+    },
+    "Webpack": {
+        "desc": "Static module bundler for modern JavaScript applications.",
+        "logo": "https://raw.githubusercontent.com/webpack/media/master/logo/icon.svg",
+        "category": "Build Tool"
+    },
+    "Remix": {
+        "desc": "Full-stack React framework focused on web standards and modern UX.",
+        "logo": "https://remix.run/img/og.1.jpg",
+        "category": "Frontend"
+    },
+    "Astro": {
+        "desc": "All-in-one web framework for building fast, content-focused websites.",
+        "logo": "https://astro.build/assets/press/astro-icon-light.svg",
+        "category": "Frontend"
+    },
+    "SolidJS": {
+        "desc": "Reactive JavaScript library for building user interfaces with fine-grained reactivity.",
+        "logo": "https://www.solidjs.com/img/logo/without-wordmark/logo.svg",
+        "category": "Frontend"
+    },
+    "Preact": {
+        "desc": "Fast 3kB alternative to React with the same modern API.",
+        "logo": "https://preactjs.com/assets/branding/symbol.svg",
+        "category": "Frontend"
+    },
+    "Alpine.js": {
+        "desc": "Lightweight JavaScript framework for composing behavior directly in markup.",
+        "logo": "https://alpinejs.dev/alpine_long.svg",
+        "category": "Frontend"
+    },
+    "HTMX": {
+        "desc": "High-power tools for HTML that allow AJAX, CSS Transitions, and WebSockets.",
+        "logo": "https://htmx.org/img/htmx_logo.1.png",
+        "category": "Frontend"
+    },
+    "Framer Motion": {
+        "desc": "Production-ready motion library for React with powerful animation features.",
+        "logo": "https://www.framer.com/images/social/motion.png",
+        "category": "Animation"
+    },
+    "GSAP": {
+        "desc": "Professional-grade animation library for the modern web.",
+        "logo": "https://greensock.com/uploads/monthly_2020_03/tweenmax.png.cf27916e926fbb328ff214f66b4c8429.png",
+        "category": "Animation"
+    },
+    "Three.js": {
+        "desc": "JavaScript 3D library for creating and displaying animated 3D graphics in the browser.",
+        "logo": "https://threejs.org/files/favicon.ico",
+        "category": "3D Graphics"
+    },
+    "D3.js": {
+        "desc": "JavaScript library for producing dynamic, interactive data visualizations.",
+        "logo": "https://d3js.org/logo.svg",
+        "category": "Visualization"
+    },
+    "Chart.js": {
+        "desc": "Simple yet flexible JavaScript charting library for designers and developers.",
+        "logo": "https://www.chartjs.org/img/chartjs-logo.svg",
+        "category": "Visualization"
+    },
+    "Lodash": {
+        "desc": "Modern JavaScript utility library delivering modularity, performance, and extras.",
+        "logo": "https://lodash.com/assets/img/lodash.svg",
+        "category": "Utility"
+    },
+    "Axios": {
+        "desc": "Promise-based HTTP client for the browser and Node.js.",
+        "logo": "https://axios-http.com/assets/logo.svg",
+        "category": "Utility"
+    },
+    "Moment.js": {
+        "desc": "Parse, validate, manipulate, and display dates and times in JavaScript.",
+        "logo": "https://momentjs.com/static/img/moment-favicon.png",
+        "category": "Utility"
+    },
+    "Day.js": {
+        "desc": "Fast 2kB alternative to Moment.js with the same modern API.",
+        "logo": "https://day.js.org/img/logo.png",
+        "category": "Utility"
+    },
+    "Prismic": {
+        "desc": "Headless website builder for developers and marketers.",
+        "logo": "https://prismic.io/favicon.ico",
+        "category": "CMS"
+    },
+    "Ghost": {
+        "desc": "Professional publishing platform built on Node.js.",
+        "logo": "https://ghost.org/favicon.ico",
+        "category": "CMS"
+    },
+    "Hugo": {
+        "desc": "The world's fastest framework for building static websites.",
+        "logo": "https://gohugo.io/favicon-32x32.png",
+        "category": "Static Site"
+    },
+    "Jekyll": {
+        "desc": "Simple, blog-aware, static site generator for personal or project sites.",
+        "logo": "https://jekyllrb.com/img/logo-2x.png",
+        "category": "Static Site"
+    },
+    "Turbo": {
+        "desc": "The speed of a single-page web application without having to write any JavaScript.",
+        "logo": "https://turbo.hotwired.dev/favicon.ico",
+        "category": "Frontend"
+    },
+    "Stimulus": {
+        "desc": "Modest JavaScript framework for the HTML you already have.",
+        "logo": "https://stimulus.hotwired.dev/favicon.ico",
+        "category": "Frontend"
+    },
+    "Qwik": {
+        "desc": "Resumable JavaScript framework for instant-loading web apps.",
+        "logo": "https://qwik.builder.io/logos/qwik-logo.svg",
+        "category": "Frontend"
+    },
+    "Google Font API": {
+        "desc": "Free service to embed open-source fonts on websites.",
+        "logo": "https://www.gstatic.com/images/branding/product/1x/google_fonts_64dp.png",
+        "category": "Typography"
+    },
+    "Font Awesome": {
+        "desc": "Icon toolkit and styling framework used by millions of websites.",
+        "logo": "https://fontawesome.com/images/favicon/icon.svg",
+        "category": "Icons"
+    },
+    "Nginx": {
+        "desc": "High-performance web server and reverse proxy. Known for stability and low resource consumption.",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+        "category": "Infrastructure"
     }
 }
 

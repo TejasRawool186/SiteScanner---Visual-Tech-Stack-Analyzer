@@ -54,18 +54,18 @@ async def main():
             techs=enriched_stack
         )
 
-        # 5. Save & Publish
+        # 5. Save Dashboard to Key-Value Store
         await Actor.set_value('OUTPUT_DASHBOARD', html_content, content_type='text/html')
-        kvs_id = Actor.config.default_key_value_store_id
-        public_url = f"https://api.apify.com/v2/key-value-stores/{kvs_id}/records/OUTPUT_DASHBOARD"
-        
-        print(f"🚀 REPORT LIVE: {public_url}")
+        print("✅ Dashboard saved to Key-Value Store")
 
+        # 6. Push raw data to Dataset
         await Actor.push_data({
             "target_url": url,
             "tech_stack": list(raw_techs),
-            "report_url": public_url
+            "technologies_count": len(raw_techs)
         })
+        
+        print("🚀 Actor completed successfully! Check the Output tab for your dashboard.")
 
 if __name__ == '__main__':
     asyncio.run(main())

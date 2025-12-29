@@ -7,6 +7,7 @@
     "buildTag": "latest",
     "dockerFile": "../Dockerfile",
     "input": "./input_schema.json",
+    "output": "./output_schema.json",
     "storages": {
         "dataset": {
             "actorSpecification": 1,
@@ -15,7 +16,11 @@
                 "overview": {
                     "title": "Overview",
                     "transformation": {
-                        "fields": ["target_url", "tech_stack", "report_url"]
+                        "fields": [
+                            "target_url",
+                            "tech_stack",
+                            "report_url"
+                        ]
                     },
                     "display": {
                         "component": "table",

@@ -1,0 +1,18 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "SiteScanner Output",
+    "description": "Visual tech stack analysis report with premium HTML dashboard",
+    "type": "object",
+    "properties": {
+        "dashboard": {
+            "type": "string",
+            "title": "📊 Visual Dashboard",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/OUTPUT_DASHBOARD"
+        },
+        "data": {
+            "type": "string",
+            "title": "📋 Raw Data",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

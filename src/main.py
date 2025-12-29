@@ -56,7 +56,7 @@ async def main():
 
         # 5. Save & Publish
         await Actor.set_value('OUTPUT_DASHBOARD', html_content, content_type='text/html')
-        kvs_id = Actor.get_env()['defaultKeyValueStoreId']
+        kvs_id = Actor.config.default_key_value_store_id
         public_url = f"https://api.apify.com/v2/key-value-stores/{kvs_id}/records/OUTPUT_DASHBOARD"
         
         print(f"🚀 REPORT LIVE: {public_url}")

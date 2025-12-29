@@ -1,0 +1,17 @@
+{
+    "title": "SiteScanner Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "websiteUrl": {
+            "title": "Target Website URL",
+            "type": "string",
+            "description": "The site to analyze (e.g. https://stripe.com)",
+            "editor": "textfield",
+            "prefill": "https://stripe.com"
+        }
+    },
+    "required": [
+        "websiteUrl"
+    ]
+}

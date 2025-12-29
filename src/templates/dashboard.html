@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Analytics: {{ url }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* --- PREMIUM COLOR SYSTEM --- */
+            /* Primary Background: Deep Charcoal */
+            --bg-primary: #0F1115;      
+            
+            /* Secondary Surface: Matte Panels */
+            --bg-card: #161920;         
+            --bg-card-hover: #1C2029;   
+            
+            /* Typography */
+            --text-primary: #F1F5F9;    /* Off-white */
+            --text-secondary: #94A3B8;  /* Muted Gray */
+            
+            /* Accent: Soft Sage Green */
+            --accent-sage: #6EE7B7;     
+            --accent-sage-dim: rgba(110, 231, 183, 0.1);
+            
+            /* Borders & Shadows */
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.2);
+            
+            --radius: 16px;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 60px 40px;
+            /* Subtle Vignette Effect */
+            background-image: radial-gradient(circle at center, #161920 0%, #0F1115 100%);
+            min-height: 100vh;
+        }
+
+        /* --- Header Section --- */
+        .dashboard-header {
+            max-width: 1200px;
+            margin: 0 auto 60px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 30px;
+        }
+
+        .header-content h1 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0 0 8px 0;
+            color: var(--text-secondary);
+            letter-spacing: -0.02em;
+        }
+
+        .header-content .target-url {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.03em;
+        }
+
+        .metric-badge {
+            text-align: right;
+        }
+
+        .metric-number {
+            font-size: 3rem;
+            font-weight: 600;
+            color: var(--accent-sage);
+            line-height: 1;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+        }
+
+        /* --- Grid Layout --- */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* --- Card Design --- */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 32px;
+            transition: all 0.4s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-soft);
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        /* Card Header: Logo + Title */
+        .card-top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .logo-wrapper {
+            width: 48px;
+            height: 48px;
+            background: #ffffff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            padding: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo-wrapper img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .tech-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Category Tag (Pill) */
+        .category-pill {
+            display: inline-block;
+            padding: 6px 12px;
+            background: var(--accent-sage-dim);
+            color: var(--accent-sage);
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-radius: 100px;
+            margin-bottom: 16px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        /* Description */
+        .description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        /* Decorative "Data" Element */
+        .confidence-indicator {
+            width: 100%;
+            height: 2px;
+            background: var(--border-subtle);
+            margin-top: 24px;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        
+        .confidence-fill {
+            height: 100%;
+            background: var(--accent-sage);
+            width: 0%;
+            animation: slideIn 1.5s ease-out forwards;
+            opacity: 0.6;
+        }
+
+        @keyframes slideIn {
+            from { width: 0%; }
+            to { width: 100%; }
+        }
+
+        /* --- Footer --- */
+        .footer {
+            max-width: 1200px;
+            margin: 60px auto 0 auto;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <div class="header-content">
+            <h1>Technology Profile</h1>
+            <div class="target-url">{{ url }}</div>
+        </div>
+        <div class="metric-badge">
+            <div class="metric-number">{{ count }}</div>
+            <div class="metric-label">Technologies Detected</div>
+        </div>
+    </header>
+
+    <div class="tech-grid">
+        {% for tech in techs %}
+        <div class="card">
+            <div class="card-top">
+                <div class="logo-wrapper">
+                    <img src="{{ tech.logo }}" onerror="this.src='https://cdn-icons-png.flaticon.com/512/10826/10826130.png'" alt="{{ tech.name }}">
+                </div>
+                <div class="tech-title">{{ tech.name }}</div>
+            </div>
+            
+            <span class="category-pill">{{ tech.category }}</span>
+            
+            <p class="description">
+                {{ tech.description }}
+            </p>
+
+            <div class="confidence-indicator">
+                <div class="confidence-fill" style="width: 95%"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="footer">
+        Generated by SiteScanner • Data Intelligence Report
+    </div>
+
+</body>
+</html>

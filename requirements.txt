@@ -1,0 +1,5 @@
+apify
+python-Wappalyzer
+requests
+jinja2
+beautifulsoup4

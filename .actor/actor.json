@@ -1,0 +1,41 @@
+{
+    "actorSpecification": 1,
+    "name": "site-scanner",
+    "title": "SiteScanner - Visual Tech Stack Analyzer",
+    "description": "A sales intelligence tool that scans a website URL and generates a premium, high-end HTML dashboard showing the technologies used (CMS, Analytics, Frameworks).",
+    "version": "1.0.0",
+    "buildTag": "latest",
+    "dockerFile": "../Dockerfile",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "fields": {},
+            "views": {
+                "overview": {
+                    "title": "Overview",
+                    "transformation": {
+                        "fields": ["target_url", "tech_stack", "report_url"]
+                    },
+                    "display": {
+                        "component": "table",
+                        "properties": {
+                            "target_url": {
+                                "label": "Target URL",
+                                "format": "text"
+                            },
+                            "tech_stack": {
+                                "label": "Tech Stack",
+                                "format": "array"
+                            },
+                            "report_url": {
+                                "label": "Report URL",
+                                "format": "link"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
